@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>se.nackademin</groupId>
 	<artifactId>maven-with-issues</artifactId>
-	<version>0.0.6</version>
+	<version>0.0.7-SNAPSHOT</version>
 	<name>maven-with-issues</name>
 	<description>Demo project for Maven Setup with some issues</description>
 	<properties>
@@ -21,7 +21,7 @@
 		<developerConnection>
         scm:git:git@github.com:robert-alfwar/maven-with-issues.git
 		</developerConnection>
-		<tag>maven-with-issues-0.0.6</tag>
+		<tag>maven-with-issues-0.0.5</tag>
 	</scm>
 
 	<distributionManagement>
