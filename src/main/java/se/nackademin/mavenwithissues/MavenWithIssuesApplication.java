@@ -16,8 +16,8 @@ public class MavenWithIssuesApplication {
 
 	@GetMapping("/hello")
 	public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
-		if ("secretPassword".equals(name)) {
-			return "You are logged in";
+		if ("olle".equals(name)) {
+			return "My code is so cool!!";
 		}
 		return String.format("Hello %s!", name);
 	}
